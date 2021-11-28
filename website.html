@@ -2,314 +2,439 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--Let browser know website is optimized for mobile-->
+    <meta http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS -->
+    <!--CSS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Font Awesome Icons -->
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+    <!--Font Awesome Icons-->
     <script src="https://kit.fontawesome.com/2a6f1f8df7.js" crossorigin="anonymous"></script>
-    <style>
-        .input-field{
-            margin-left: 150px !important;
-            width: 500px;
-        }
-        .brand-logo{
-            margin-left: 50px !important; 
-        }
-        .card{
-            height: 200px;
-            border-radius: 5px;
-        }
-        #r1{
-            padding: 0px 25px;
-        }
-        .card-content{
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: small;
-        }
-    </style>
-    <title>project test</title>
+    <!--Icon-->
+    <link rel = "icon" href ="img/logo.jpg" type = "image/x-icon">
+    <title>Hoshimachi Suisei</title>
 </head>
-<body>
-    <!-- Header -->
-    <div class="main-header">
-        <nav class="grey darken-4">
+<body class="transparent">
+    <!--Header-->
+    <header class="main-header">
+        <nav class="transparent z-depth-0">
             <div class="nav-wrapper">
-                <a href="website.html" class="brand-logo">Hames</a>
-                <form>
-                    <div class="input-field">
-                        <input id="search" type="search" placeholder="Search" required>
-                        <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-                        <i class="material-icons">close</i>
-                    </div>
-                </form>
+                <div class="container">
+                    <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
+                    <ul class="hide-on-med-and-down" id="ni">
+                        <li>
+                            <a href="https://instagram.com"><i class="fab fa-youtube"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/suisei_hosimati"><i class="fab fa-twitter"></i></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
-    </div>
 
-    <!-- Main content -->
-    <section class="section section-main-content">
-        <h4>&nbsp;&nbsp;New Releases</h4>
-            <div class="row" id="r1">
-                <div class="col s12 m3 l2">
-                    <a href="">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://images.gog-statics.com/a482d1066fa657391c3ef4d231597b64b2ef95bc079a0ab01a0045c9d8c3db19_196.jpg" alt="">
-                            </div>
-                            <div class="card-content">
-                                <p class="black-text">
-                                    Pathfinder: Wrath of the Righteous
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col s12 m3 l2">
-                    <a href="">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://images.gog-statics.com/e8d85336f616ad438f01c0720abe73156946eea0dff7e7bac205332c913335fa_196.jpg" alt="">
-                            </div>
-                            <div class="card-content">
-                                <p class="black-text">
-                                    Stronghold: Warlords
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col s12 m3 l2">
-                    <a href="">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://images.gog-statics.com/2ebfdf752a3098700daf00e3b48bd93f625b802140eb290abb47e6200beb8f9c_196.jpg" alt="">
-                            </div>
-                            <div class="card-content">
-                                <p class="black-text">
-                                    GTTOD: Get To The Orange Door
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col s12 m3 l2">
-                    <a href="">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://images.gog-statics.com/aafdc9de41cb60ded273a04dc26f333bbf982881f0bb5070964795da2661d1e9_196.jpg" alt="">
-                            </div>
-                            <div class="card-content">
-                                <p class="black-text">
-                                    Tunnel of Doom
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col s12 m3 l2">
-                    <a href="">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://images.gog-statics.com/98db897eeec0bb0e3e24132c5377ab0d20ca8fe31676988bb8fa21cb84d9312f_196.jpg" alt="">
-                            </div>
-                            <div class="card-content">
-                                <p class="black-text">
-                                    Sherlock Holmes Chapter One
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col s12 m3 l2">
-                    <a href="">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://images.gog-statics.com/680c18b945f514e3f50cbd48870d53b8b6a012907e305322daa19ddcbd97b67a_196.jpg" alt="">
-                            </div>
-                            <div class="card-content">
-                                <p class="black-text">
-                                    Necromunda: Hired Gun
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col s12 m3 l2">
-                    <a href="">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://images.gog-statics.com/9288b3cb813d652c48ca7e9a6e2002e8fc61792134471a4c3ca5a1695ffab04e_196.jpg" alt="">
-                            </div>
-                            <div class="card-content">
-                                <p class="black-text">
-                                    Pathfinder: Wrath of the Righteous
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col s12 m3 l2">
-                    <a href="">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://images.gog-statics.com/474fdb079b5cd6c9dcbf4e5041275730f6263d163a6f8878c870194aca4551f8_196.jpg" alt="">
-                            </div>
-                            <div class="card-content">
-                                <p class="black-text">
-                                    Stronghold: Warlords
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col s12 m3 l2">
-                    <a href="">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://images.gog-statics.com/0cf8e75466a71b193c322a32756bf2214675fa9c64358dc040ffc85cc6c186d8_196.jpg" alt="">
-                            </div>
-                            <div class="card-content">
-                                <p class="black-text">
-                                    GTTOD: Get To The Orange Door
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col s12 m3 l2">
-                    <a href="">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://images.gog-statics.com/aafdc9de41cb60ded273a04dc26f333bbf982881f0bb5070964795da2661d1e9_196.jpg" alt="">
-                            </div>
-                            <div class="card-content">
-                                <p class="black-text">
-                                    Tunnel of Doom
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col s12 m3 l2">
-                    <a href="">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://images.gog-statics.com/98db897eeec0bb0e3e24132c5377ab0d20ca8fe31676988bb8fa21cb84d9312f_196.jpg" alt="">
-                            </div>
-                            <div class="card-content">
-                                <p class="black-text">
-                                    Sherlock Holmes Chapter One
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col s12 m3 l2">
-                    <a href="">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://images.gog-statics.com/680c18b945f514e3f50cbd48870d53b8b6a012907e305322daa19ddcbd97b67a_196.jpg" alt="">
-                            </div>
-                            <div class="card-content">
-                                <p class="black-text">
-                                    Necromunda: Hired Gun
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col s12 m3 l2">
-                    <a href="">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://images.gog-statics.com/a482d1066fa657391c3ef4d231597b64b2ef95bc079a0ab01a0045c9d8c3db19_196.jpg" alt="">
-                            </div>
-                            <div class="card-content">
-                                <p class="black-text">
-                                    Pathfinder: Wrath of the Righteous
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col s12 m3 l2">
-                    <a href="">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://images.gog-statics.com/e8d85336f616ad438f01c0720abe73156946eea0dff7e7bac205332c913335fa_196.jpg" alt="">
-                            </div>
-                            <div class="card-content">
-                                <p class="black-text">
-                                    Stronghold: Warlords
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col s12 m3 l2">
-                    <a href="">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://images.gog-statics.com/2ebfdf752a3098700daf00e3b48bd93f625b802140eb290abb47e6200beb8f9c_196.jpg" alt="">
-                            </div>
-                            <div class="card-content">
-                                <p class="black-text">
-                                    GTTOD: Get To The Orange Door
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col s12 m3 l2">
-                    <a href="">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://images.gog-statics.com/aafdc9de41cb60ded273a04dc26f333bbf982881f0bb5070964795da2661d1e9_196.jpg" alt="">
-                            </div>
-                            <div class="card-content">
-                                <p class="black-text">
-                                    Tunnel of Doom
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col s12 m3 l2">
-                    <a href="">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://images.gog-statics.com/98db897eeec0bb0e3e24132c5377ab0d20ca8fe31676988bb8fa21cb84d9312f_196.jpg" alt="">
-                            </div>
-                            <div class="card-content">
-                                <p class="black-text">
-                                    Sherlock Holmes Chapter One
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col s12 m3 l2">
-                    <a href="">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://images.gog-statics.com/680c18b945f514e3f50cbd48870d53b8b6a012907e305322daa19ddcbd97b67a_196.jpg" alt="">
-                            </div>
-                            <div class="card-content">
-                                <p class="black-text">
-                                    Necromunda: Hired Gun
-                                </p>
-                            </div>
-                        </div>
-                    </a>
+        <!--Showcase-->
+        <div class="showcase container">
+            <div class="row">
+                <div class="col s12 m7 left">
+                    <br class="hide-on-med-and-down"><br class="hide-on-med-and-down">
+                    <h1 id="sh1">Hoshimachi Suisei</h1>
+                    <p id="sp1">It's your shooting star, your diamond in the rough, idol VTuber Hoshimachi Suisei!</p>
                 </div>
             </div>
+        </div>
+    </header>
+
+    <!--About-->
+    <section class="section section-about">
+        <div class="container">
+            <br><br>
+            <div class="row">
+                <div class="col s12 m5">
+                    <br><br>
+                    <img src="img/Hoshimachi_Suisei_-_3D_Model_04.png" height="490px">
+                </div>
+                <div class="col s12 m7">
+                    <br>
+                    <h3 class="blue-text text-darken-1">About</h3>
+                    <div class="divider"></div>
+                    <p id="ap1">
+                        "Hoshimachi Suisei (星街すいせい)
+                        is a Japanese virtual YouTuber. She began posting videos as an independent creator in March 2018. 
+                        In May 2019, she became affiliated with Hololive Production through their newly-created music 
+                        label, INoNaKa Music, before joining the agency's main branch later the same year.
+                        Her activity consists primarily of live streaming herself singing karaoke, playing video games, 
+                        or talking to her fans.                       
+                        She is particularly well-known among fans for her skill at Tetris and 
+                        her singing ability."
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        
+    <!--Personality-->
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m7">
+                    <br><br><br>
+                    <h3 class="blue-text text-darken-1">Personality</h3>
+                    <div class="divider"></div>
+                    <p id="ap1">
+                        "Hoshimachi Suisei debutted with a modest and earnest personality to do the best in 
+                        everything she did. She is always cheerful and energetic, rarely showing genuine sadness in 
+                        streams, and her viewers used to view her as a pure person. However, during a stream 
+                        collaboration with various Hololive members, she was shown to have a remorseless and 
+                        sociopathic personality while still giving off a carefree attitude when she was killing 
+                        and hunting out people. Over time, people started to refer to this side of her as 
+                        "Psychopath Suisei", with her denying it as a side of her."
+                    </p>
+                </div>
+                <div class="col s12 m5 center">
+                    <br><br>
+                    <img src="img/Hoshimachi_Suisei_-_Nonstop_Story_Full_Illustration.png" height="490px">
+                </div>
+            </div>
+        </div>
+        <br><br>
+
+    <!--Career-->
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <br>
+                    <h3 class="blue-text text-darken-1">Career</h3>
+                    <div class="divider"></div>
+                    <br>
+                    <ul class="collapsible popout">
+                        <li>
+                            <div class="collapsible-header">
+                                <h5><b>&nbsp;2018</b></h5>
+                            </div>
+                            <div class="collapsible-body">
+                                <h6><b>March</b></h6>
+                                <p id="ap1">
+                                "Hoshimachi Suisei created her YouTube channel on 18 March 2018 and revealed her initial character design 
+                                and model, illustrated and rigged by herself, on Twitter that same day."
+                                </p>
+                                <p id="ap1">
+                                "She posted her first video to YouTube on 22 March 2018, debuting as an independent virtual YouTuber and 
+                                self-proclaimed idol."
+                                </p>
+                                <h6><b>April</b></h6>
+                                <p id="ap1">
+                                " This was followed on 30 April with her first song cover."
+                                </p>
+                                <h6><b>July</b></h6>
+                                <p id="ap1">
+                                "She joined the VTuber agency S:gnal on 2 July 2018, but left a month later on 4 August."
+                                </p>
+                                <h6><b>November</b></h6>
+                                <p id="ap1">
+                                "She released her first original song, "Comet", on 22 November 2018, and her second, 
+                                "Tenkyū, Suisei wa Yoru o Mataide" (天球、彗星は夜を跨いで), on 22 March 2019, both as YouTube music videos."
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="collapsible popout">
+                        <li>
+                            <div class="collapsible-header">
+                                <h5><b>&nbsp;2019</b></h5>
+                            </div>
+                            <div class="collapsible-body">
+                                <h6><b>May</b></h6>
+                                <p id="ap1">
+                                "Hoshimachi joined Hololive Productions via INoNaKa Music (イノナカミュージック), 
+                                its newly created music label, with VTuber AZKi."
+                                </p>
+                                <h6><b>May</b></h6>
+                                <p id="ap1">
+                                "Hoshimachi joined Hololive Productions via INoNaKa Music (イノナカミュージック), its newly created music 
+                                label, with VTuber AZKi."
+                                </p>
+                                <h6><b>October</b></h6>
+                                <p id="ap1">
+                                "Hoshimachi started live streaming on bilibili. After her 3D model's debut concert on 1 March 2020, 
+                                her popularity on the site grew tremendously. This stream garnered over tens of thousands of live 
+                                viewers on bilibili. On 17 March 2020, her number of jiànzhǎng (舰长, or "captains", viewers who 
+                                donate over 198 renminbi to a particular streamer every month), surpassed 1,000, over 700 of 
+                                whom joined during the aforementioned concert. She was the fourth streamer and first VTuber on 
+                                the platform to reach that milestone."
+                                </p>
+                                <h6><b>November</b></h6>
+                                <p id="ap1">
+                                "he announced on Twitter on 28 November 2019 that she would be transferring to the all-female Hololive agency. 
+                                Cover Corp., Hololive's parent company, also officially announced the transfer on 29 November, to be carried 
+                                out on 1 December. Hoshimachi also received a new Live2D model built by Live2D animator rariemonn based on 
+                                an updated character design by Teshima Nari."
+                                </p>
+                                <h6><b>November</b></h6>
+                                <p id="ap1">
+                                "She released her first original song, "Comet", on 22 November 2018, and her second, 
+                                "Tenkyū, Suisei wa Yoru o Mataide" (天球、彗星は夜を跨いで), on 22 March 2019, both as YouTube music videos."
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="collapsible popout">
+                        <li>
+                            <div class="collapsible-header">
+                                <h5><b>&nbsp;2020</b></h5>
+                            </div>
+                            <div class="collapsible-body">
+                                <h6><b>January</b></h6>
+                                <p id="ap1">
+                                "Hoshimachi performed in the "Hololive 1st fes. Nonstop Story" concert at the Toyosu PIT on 24 
+                                January 2020 with every member of Hololive at that time."
+                                </p>
+                                <p id="ap1">
+                                "She reached the 100,000 subscriber milestone on YouTube on 31 January 2020."
+                                </p>
+                                <h6><b>March</b></h6>
+                                <p id="ap1">
+                                "On 1 March 2020, Hoshimachi debuted her 3D model, created by Yatsurugi. This stream was watched 
+                                by 55,000 live viewers and its associated Twitter hashtag was at one point the top trending hashtag 
+                                in the world."
+                                </p>
+                                <p id="ap1">
+                                "Hoshimachi released her first single under Cover Corp., "Next Color Planet", 
+                                which ranked 5th in the Oricon daily digital single ranking on the day of its release."
+                                </p>
+                                <h6><b>June</b></h6>
+                                <p id="ap1">
+                                "Participated in Bunka Housou V&R's STUDIO LIVE."
+                                </p>
+                                <h6><b>July</b></h6>
+                                <p id="ap1">
+                                "Participated in It's a Virtual Pop World!."
+                                </p>
+                                <p id="ap1">
+                                "Participated in VILLS "Virtual UNIT Fes." with Sakura Miko as Hololive Special Unit "miComet"."
+                                </p>
+                                <p id="ap1">
+                                "Participated in BML "Bilibili Macro Link". She revealed her fourth original song, "Pieces" and 
+                                sang it at the event."
+                                </p>
+                                <h6><b>August</b></h6>
+                                <p id="ap1">
+                                "Participated in Bilibili World."
+                                </p>
+                                <p id="ap1">
+                                "Participated in "ＮＨＫバーチャル文化祭"."
+                                </p>
+                                <h6><b>September</b></h6>
+                                <p id="ap1">
+                                "Participated in Tokyo Tower Fireworks Display XR ~COSMIC FLOWER~."
+                                </p>
+                                <p id="ap1">
+                                "Had a Vanguard ZERO collaboration event featuring herself as a playable card."
+                                </p>
+                                <h6><b>October</b></h6>
+                                <p id="ap1">
+                                "Participated in Tokyo Idol Festival."
+                                </p>
+                                <p id="ap1">
+                                "Celebrated her 500k subscribers with her 3rd 3D live, STARt in the SCREEEN!"
+                                </p>
+                                <h6><b>November</b></h6>
+                                <p id="ap1">
+                                "Revealed her Live2D casual outfit."
+                                </p>
+                                <p id="ap1">
+                                "Participated in SUISEI MUSIC "POWER" LIVE which was hosted by Nissin Foods POWER STATION [REBOOT]."
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="collapsible popout">
+                        <li>
+                            <div class="collapsible-header">
+                                <h5><b>&nbsp;2021</b></h5>
+                            </div>
+                            <div class="collapsible-body">
+                                <h6><b>April</b></h6>
+                                <p id="ap1">
+                                "Hoshimachi released her next digital single "Ghost", which ranked 1st on Oricon daily digital single ranking, 
+                                also reaching 1st on other digital single charts such as iTunes Japan, Amazon Music Japan, and Mora. 
+                                "Ghost" also became the first VTuber-produced song to remain in Oricon's daily single ranking for 
+                                two days in a row, reaching #4 on 15 April, as well as the first VTuber-produced song to chart in 
+                                Oricon's weekly single ranking, reaching #11. The song also charted on Billboard Japan's weekly 
+                                ranking of downloadable songs, reaching #5 for the week of April 12 to 18."
+                                </p>
+                                <h6><b>June</b></h6>
+                                <p id="ap1">
+                                "Hoshimachi announced a series of three back-to-back monthly digital extended play releases, 
+                                starting with "Bluerose / Comet" on 25 June. This EP included a new original song, 
+                                "Bluerose", an official digital release of Hoshimachi's first original, as well as 
+                                instrumental tracks for both."
+                                </p>
+                                <p id="ap1">
+                                "Achieved a 1,000,000 Youtube subscriber milestone."
+                                </p>
+                                <h6><b>July</b></h6>
+                                <p id="ap1">
+                                "On 8 July, she released "Kakero / Tenkyū, Suisei wa Yoru o Mataide" (駆けろ / 天球、彗星は夜を跨いで), 
+                                again with a new song, an old one, and both instrumentals. This also coincided with the announcement 
+                                of her first full-length album, "Still Still Stellar", set to release on 29 September, 2021."
+                                </p>
+                                <h6><b>August</b></h6>
+                                <p id="ap1">
+                                "Finally, on 21 August, she released "Jibun Katte Dazzling / Bye Bye Rainy" 
+                                (自分勝手Dazzling / バイバイレイニー), this time consisting of the full song for "Jibun Katte Dazzling" 
+                                (自分勝手Dazzling), the short version for which was uploaded on 16 August as part of a collaboration with 
+                                CHUNITHM, as well as a totally new original, and once again, instrumental tracks for both. 
+                                This also coincided with an official announcement of the tracklist for "Still Still Stellar", 
+                                including many of her previous releases and four new songs."
+                                </p>
+                                <h6><b>September</b></h6>
+                                <p id="ap1">
+                                "On 29 September 2021, Hoshimachi released her long-awaited first album, also streaming a 
+                                "countdown" as viewers waited for it to go live in Japan. Her album charted 5th place on the 
+                                Oricon Daily Album Ranking, becoming the best-ever performing solo VTuber album. Additionally, 
+                                she charted first on iTunes in Japan and numerous other regions including Hong Kong, Malaysia, 
+                                Singapore, and Taiwan."
+                                </p>
+                                <h6><b>October</b></h6>
+                                <p id="ap1">
+                                "Revealed her two newest Live2D casual outfits on one stream."
+                                </p>
+                                <p id="ap1">
+                                "Held first solo live concert at Toyosu PIT, titled "STELLAR into the GALAXY"."
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+
+    <!--Discography-->
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <br>
+                    <h3 class="blue-text text-darken-1">Discography</h3>
+                    <div class="divider"></div>
+                    <br>
+                    <h4>Singles</h4>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th class="center">Title</th>
+                                <th class="center">Release date</th>
+                                <th class="center">Label</th>
+                                <th class="center">Format</th>
+                            </tr>
+                            <tr>
+                                <td>"Comet"</td>
+                                <td class="center">22 November 2018</td>
+                                <td class="center">-</td>
+                                <td class="center">YouTube MV</td>
+                            </tr>
+                            <tr>
+                                <td>"Tenkyū, Suisei wa Yoru o Mataide" (天球、彗星は夜を跨いで)</td>
+                                <td class="center">22 March 2019</td>
+                                <td class="center">-</td>
+                                <td class="center">YouTube MV</td>
+                            </tr>
+                            <tr>
+                                <td>"Next Color Planet"</td>
+                                <td class="center">22 March 2020</td>
+                                <td class="center">Cover Corp.</td>
+                                <td class="center">Digital single</td>
+                            </tr>
+                            <tr>
+                                <td>"Ghost"</td>
+                                <td class="center">14 April 2021</td>
+                                <td class="center">Cover Corp.</td>
+                                <td class="center">Digital single
+                            </td>
+                            </tr>
+                            <tr>
+                                <td>"Sanji Juunihun"(3時12分) (with Taku Inoue)</td>
+                                <td class="center">14 July 2021</td>
+                                <td class="center">VIA/Toy's Factory</td>
+                                <td class="center">Digital single</td>
+                            </tr>
+                            <tr>
+                                <td>"The Last Frontier" (with AZKi)</td>
+                                <td class="center">15 October 2021</td>
+                                <td class="center">Cover Corp.</td>
+                                <td class="center">Digital single</td>
+                            </tr>
+                            <tr>
+                                <td>"Out of Frame" (with Inui Toko)</td>
+                                <td class="center">22 October 2021</td>
+                                <td class="center">Cover Corp.</td>
+                                <td class="center">Digital single</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br>
+                    <h4>Extended Plays</h4>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th class="center">Title</th>
+                                <th class="center">Release date</th>
+                                <th class="center">Label</th>
+                                <th class="center">Format</th>
+                            </tr>
+                            <tr>
+                                <td>"Bluerose / Comet"</td>
+                                <td class="center">26 June 2021</td>
+                                <td class="center">Cover Corp.</td>
+                                <td class="center">Digital EP</td>
+                            </tr>
+                            <tr>
+                                <td>"Kakero / Tenkyū, Suisei wa Yoru o Mataide (駆けろ / 天球、彗星は夜を跨いで)</td>
+                                <td class="center">9 July 2021</td>
+                                <td class="center">Cover Corp.</td>
+                                <td class="center">Digital EP</td>
+                            </tr>
+                            <tr>
+                                <td>"Jibun Katte Dazzling / Bai Bai Reinī (自分勝手Dazzling / バイバイレイニー)"</td>
+                                <td class="center">22 August 2021</td>
+                                <td class="center">Cover Corp.</td>
+                                <td class="center">Digital EP</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br>
+                    <h4>Albums</h4>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th class="center">Title</th>
+                                <th class="center">Release date</th>
+                                <th class="center">Label</th>
+                                <th class="center">Format</th>
+                                <th class="center">Peak chart position</th>
+                            </tr>
+                            <tr>
+                                <td>"Still Still Stellar"</td>
+                                <td class="center">29 September 2021</td>
+                                <td class="center">Physical release</td>
+                                <td class="center">Digital EP</td>
+                                <td class="center">6 (Oricon)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <br><br>
     </section>
 
-    <!-- Scripts -->
+    <!--Scripts-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.collapsible').collapsible();
+        });
+    </script>
 </body>
 </html>

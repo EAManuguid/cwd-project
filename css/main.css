@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,400);
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Satisfy&display=swap');
+
+.main-header{
+    background: url(../img/1084184.jpg);
+    min-height: 100vmin;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    -webkit-text-stroke: black .2px;
+    overflow: hidden;
+}
+
+.main-header .showcase{
+    padding-top: 90px;
+}
+
+.active-link{
+    color: skyblue;
+    font-weight: bold;
+    -webkit-text-stroke: black .2px;
+}
+
+.section-about{
+    overflow: hidden;
+    background: url(../img/bg1-40%.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.section-personality{
+    overflow: hidden;
+    background: rgb(248, 252, 255);
+}
+
+.section-career{
+    overflow: hidden;
+    background: rgb(248, 252, 255);
+}
+
+.section-discography{
+    overflow: hidden;
+    background: rgb(248, 252, 255);
+}
+
+.collapsible-body{
+    background: rgb(248, 252, 255);
+}
+
+tr{
+    border: gainsboro solid 1px;
+    background: white;
+}
+
+td{
+    border: gainsboro solid 1px;
+}
+
+th{
+    border: gainsboro solid 1px;
+    background: whitesmoke;
+}
+
+#sh1{
+    -webkit-text-stroke: black .8px;
+    font-family: 'Satisfy', cursive;
+    font-weight: 500;
+    font-size: 70px;
+    color: azure;
+}
+
+#sp1{
+    -webkit-text-stroke: black .3px;
+    font-size: larger;
+}
+
+#ap1{
+    font-size: 21px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
