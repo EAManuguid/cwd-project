@@ -22,7 +22,7 @@
 }
 
 .section-about{
-    background: url(../img/bg1-40%.jpg);
+    background: url(../img/1084184.jpg);
     min-height: 100vmin;
     background-size: cover;
     background-position: center;
@@ -30,8 +30,8 @@
 }
 
 .section-personality{
-    overflow: hidden;
     background: rgb(248, 252, 255);
+    overflow: hidden;    
 }
 
 .section-career{
