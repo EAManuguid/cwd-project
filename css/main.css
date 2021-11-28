@@ -30,18 +30,26 @@
 }
 
 .section-personality{
-    background: rgb(248, 252, 255);
+    background: url(../img/bg1i.jpg);
+    min-height: 100vmin;
+    background-size: cover;
+    background-position: center;
     overflow: hidden;    
 }
 
 .section-career{
+    background: url(../img/bg1.jpg);
+    min-height: 100vmin;
+    background-size: cover;
+    background-position: center;
     overflow: hidden;
-    background: rgb(248, 252, 255);
 }
 
 .section-discography{
-    overflow: hidden;
-    background: rgb(248, 252, 255);
+    background: url(../img/bg1.2.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden; 
 }
 
 .collapsible-body{
