@@ -22,10 +22,11 @@
 }
 
 .section-about{
-    overflow: hidden;
     background: url(../img/bg1-40%.jpg);
+    min-height: 100vmin;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
 
 .section-personality{
